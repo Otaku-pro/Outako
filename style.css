@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+ 
+}
+
+
+.movie {
+    width: 25%; 
+    margin: 75px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+
+}
+
+@media (max-width: 768px) {
+    .movie {
+        width: 100%; 
+    }
+}
+
+
+
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie .sales {
+    margin-top: 5px;
+}
+
+.movie .graph {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie .fill {
+    height: 100%;
+    width: 0;
+    background-color: #655dd6;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.additional-info {
+    display: none;
+}
+
+
+.view-more-button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.view-more-button:focus + .additional-info {
+    display: block;
+}
+
+.graph .fill {
+    background-color: #3498db; 
+    height: 100%;
+    width: 0; 
+    transition: width 0.5s ease;
+}
+
+.footer-html {
+    text-align: center;
+}
+
