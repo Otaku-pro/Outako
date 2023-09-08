@@ -80,11 +80,13 @@ header img {
 
 
 .view-more-button {
-    background-color: #0074d9;
+    background-color: #3498db;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
+    text-align: center; 
 }
 
 
