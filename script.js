@@ -17,7 +17,9 @@ fillElements.forEach((fillElement, index) => {
 
 
 
+
 const viewMoreButtons = document.querySelectorAll('.view-more-button');
+
 
 
 viewMoreButtons.forEach((button) => {
@@ -38,6 +40,7 @@ viewMoreButtons.forEach((button) => {
 
 
 
+
 document.addEventListener("DOMContentLoaded", function () {
 
     const ticketSalesElements = document.querySelectorAll(".sold-text");
@@ -54,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
       ticketRemainingElements[index].textContent =
-        "التذاكر المتبقية : " + remainingTickets;
+        "المقاعد المتاحة : " + remainingTickets;
     });
   });
   
